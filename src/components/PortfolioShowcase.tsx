@@ -1,19 +1,19 @@
 export function PortfolioShowcase() {
   const portfolioItems = [
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-6laqPMa8FuLJLGY15UqGeDduXqPTnL.png",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/7449c507-1b3d-4c52-8458-d498d7e28d49.jpg",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-2SM27flFV2PAGevb0yGPlw5a1VO0Uc.png",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/57af6ebb-ad6c-4da8-88ad-70e8002bfa17.jpg",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-auovg1HaxuQFknmxHcpbfOBXQPjAWw.png",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/aee3b69c-6a4c-430a-b0f6-a2ca5f34c187.jpg",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-1SjePGsMFItZp8FKWs7dh9emmNImMD.png",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/435c3d1e-072e-478c-a30b-8eaeb3205e62.jpg",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5-mlczSZMqTq3CmnCXAs0oV6ITGeKdDV.png",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/5a1b0e90-0720-49fd-bec1-033ce780bd00.jpg",
     },
   ]
 

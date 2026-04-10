@@ -3,32 +3,32 @@ import { motion } from "framer-motion"
 export function CaseStudiesSection() {
   const caseStudies = [
     {
-      client: "Stellar Analytics",
-      project: "Редизайн лендинга SaaS",
-      metric: "Рост конверсий на 127%",
-      description: "Полный редизайн главного лендинга продукта с A/B-тестированием и оптимизацией конверсий.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "Свадьба Анны и Сергея",
+      project: "Оформление свадьбы под ключ",
+      metric: "300+ цветов за одну ночь",
+      description: "Создали полное цветочное оформление зала, арки для церемонии и букет невесты в стиле рустик.",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/57af6ebb-ad6c-4da8-88ad-70e8002bfa17.jpg",
     },
     {
-      client: "Nova Industries",
-      project: "White-label платформа",
-      metric: "Онбординг в 3 раза быстрее",
-      description: "Создали масштабируемое white-label решение для обслуживания 50+ клиентов одновременно.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "8 марта — массовые заказы",
+      project: "Доставка 150 букетов за день",
+      metric: "Все доставлены вовремя",
+      description: "Организовали доставку 150 индивидуальных букетов в один день без единой задержки.",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/7449c507-1b3d-4c52-8458-d498d7e28d49.jpg",
     },
     {
-      client: "Quantum Dynamics",
-      project: "Оптимизация e-commerce",
-      metric: "Рост выручки на 85%",
-      description: "Оптимизировали checkout и внедрили конверсионные паттерны дизайна по всей платформе.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "Ресторан «Вечер»",
+      project: "Еженедельное украшение столов",
+      metric: "Постоянный партнёр 2 года",
+      description: "Создаём еженедельные флористические композиции для украшения залов и входной группы.",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/aee3b69c-6a4c-430a-b0f6-a2ca5f34c187.jpg",
     },
     {
-      client: "Alpine Ventures",
-      project: "Перезапуск сайта агентства",
-      metric: "200+ лидов в месяц",
-      description: "Стратегический редизайн для лидогенерации с интеграцией CRM и автоматизацией.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "День рождения Марины",
+      project: "Сюрприз-доставка с открыткой",
+      metric: "Улыбка гарантирована",
+      description: "Оформили коробку с пионами и персональной открыткой — доставили прямо на работу в нужный час.",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/435c3d1e-072e-478c-a30b-8eaeb3205e62.jpg",
     },
   ]
 
@@ -43,7 +43,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Кейсы
+            Наши работы
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Реальные результаты агентств, с которыми мы работали для роста и конверсий.
+            Реальные истории, за которыми стоят эмоции и особые моменты наших клиентов.
           </motion.p>
         </div>
 

@@ -3,24 +3,24 @@ import { motion } from "framer-motion"
 export function ServicesSection() {
   const services = [
     {
-      title: "Дизайн для конверсий",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      title: "Букеты из роз и пионов",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/7449c507-1b3d-4c52-8458-d498d7e28d49.jpg",
+      overlayImage: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/5a1b0e90-0720-49fd-bec1-033ce780bd00.jpg",
     },
     {
-      title: "White-label решения",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      title: "Свадебные украшения",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/57af6ebb-ad6c-4da8-88ad-70e8002bfa17.jpg",
+      overlayImage: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/7449c507-1b3d-4c52-8458-d498d7e28d49.jpg",
     },
     {
-      title: "Масштабируемая разработка",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      title: "Цветы в коробках и шляпках",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/435c3d1e-072e-478c-a30b-8eaeb3205e62.jpg",
+      overlayImage: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/aee3b69c-6a4c-430a-b0f6-a2ca5f34c187.jpg",
     },
     {
-      title: "Поддержка и развитие",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      title: "Корпоративное оформление",
+      image: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/aee3b69c-6a4c-430a-b0f6-a2ca5f34c187.jpg",
+      overlayImage: "https://cdn.poehali.dev/projects/5a3ff963-1afa-42c5-b129-615eec5d8ec8/files/435c3d1e-072e-478c-a30b-8eaeb3205e62.jpg",
     },
   ]
 
@@ -35,7 +35,7 @@ export function ServicesSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-5xl sm:text-6xl lg:text-7xl font-normal text-foreground mb-4 tracking-tight"
           >
-            Наши услуги
+            Наши букеты
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -44,7 +44,7 @@ export function ServicesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-sans text-lg sm:text-xl text-muted-foreground"
           >
-            Все, что нужно вашему агентству для выдающихся результатов.
+            Авторские букеты для любого повода — от романтики до торжественных событий.
           </motion.p>
         </div>
 

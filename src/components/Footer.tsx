@@ -1,4 +1,5 @@
-import { Linkedin, Twitter, Instagram, Mail, Phone } from "lucide-react"
+import { Instagram, Mail, Phone } from "lucide-react"
+import Icon from "@/components/ui/icon"
 
 export function Footer() {
   return (
@@ -8,13 +9,13 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">P</span>
+                <Icon name="Flower2" size={18} className="text-primary-foreground" />
               </div>
-              <span className="font-serif text-xl font-bold">Prism</span>
+              <span className="font-serif text-xl font-bold">Цветочный рай</span>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-md">
-              Конверсионные сайты для агентств, которые растут. Превращаем каждый визит в рост вместе с партнером,
-              который инвестирует в ваш успех.
+              Свежие цветы с любовью — авторские букеты с доставкой за 2 часа по всему городу.
+              Дарим эмоции для особых моментов каждый день.
             </p>
           </div>
 
@@ -23,12 +24,12 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#services" className="text-muted-foreground hover:text-primary transition-colors">
-                  Услуги
+                  Букеты
                 </a>
               </li>
               <li>
                 <a href="#process" className="text-muted-foreground hover:text-primary transition-colors">
-                  Процесс
+                  Как мы работаем
                 </a>
               </li>
               <li>
@@ -71,28 +72,10 @@ export function Footer() {
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            {new Date().getFullYear()} Prism Creative. Все права защищены.
+            {new Date().getFullYear()} Цветочный рай. Все права защищены.
           </p>
 
           <div className="flex items-center gap-4">
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="w-5 h-5" />
-            </a>
             <a
               href="https://instagram.com"
               target="_blank"
